@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "declaration": true,
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules",
+    "scripts",
+    "typings/main",
+    "typings/main.d.ts"
+  ],
+  "compileOnSave" : false,
+  "buildOnSave": false
+}

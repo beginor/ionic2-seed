@@ -1,0 +1,40 @@
+{
+  "name": "ionic2-seed",
+  "version": "1.0.0",
+  "description": "ionic2 seed application",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beginor/ionic2-seed.git"
+  },
+  "keywords": [
+    "angular2",
+    "ionic2",
+    "systemjs"
+  ],
+  "author": "beginor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beginor/ionic2-seed/issues"
+  },
+  "homepage": "https://github.com/beginor/ionic2-seed#readme",
+  "dependencies": {
+    "angular2": "2.0.0-beta.8",
+    "colors": "^1.1.2",
+    "es6-promise": "^3.0.2",
+    "es6-shim": "^0.33.6",
+    "inquirer": "0.11.0",
+    "ionic-angular": "2.0.0-beta.3",
+    "ionicons": "3.0.0-alpha.3",
+    "lodash": "3.10.1",
+    "mkdirp-no-bin": "0.5.1",
+    "q": "1.4.1",
+    "reflect-metadata": "0.1.2",
+    "rxjs": "5.0.0-beta.2",
+    "zone.js": "0.5.15",
+    "systemjs": "0.19.6"
+  }
+}

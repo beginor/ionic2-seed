@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+    <title>Ionic Seed</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link href="node_modules/ionic-angular/bundles/ionic.css" rel="stylesheet">
+    <script src="./node_modules/es6-shim/es6-shim.min.js"></script>
+    <script src="./node_modules/es6-module-loader/dist/es6-module-loader.src.js"></script>
+    <script src="./node_modules/systemjs/dist/system.src.js"></script>
+    <script>
+        System.config({
+            map: {
+                'angular2': '/angular2'
+            },
+            packages: {
+                'ionic-angular': {
+                    main: 'index'
+                },
+                'dist': {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+    </script>
+    <script src="./node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="./node_modules/angular2/bundles/angular2.dev.js"></script>
+    <script src="./node_modules/angular2/bundles/router.dev.js"></script>
+    <script src="./node_modules/angular2/bundles/http.dev.js"></script>
+    <script src="./node_modules/ionic-angular/bundles/ionic.system.js"></script>
+    <script src="./node_modules/rxjs/bundles/Rx.js"></script>
+</head>
+<body>
+
+<ion-app>
+    <ion-loading-icon></ion-loading-icon>
+</ion-app>
+
+<script>
+    System.import('./dist/app.js').then(function (m) {
+    }, console.error.bind(console));
+</script>
+
+</body>
+</html>
